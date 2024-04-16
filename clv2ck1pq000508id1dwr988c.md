@@ -3,6 +3,7 @@ title: "Implementation of i18n in the Vue 3 Composition API"
 datePublished: Tue Apr 16 2024 12:15:21 GMT+0000 (Coordinated Universal Time)
 cuid: clv2ck1pq000508id1dwr988c
 slug: implementation-of-i18n-in-the-vue-3-composition-api
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713270045792/d2cce44e-d258-4941-ad1c-1eae78ed182b.png
 tags: vuejs, i18n
 
 ---
