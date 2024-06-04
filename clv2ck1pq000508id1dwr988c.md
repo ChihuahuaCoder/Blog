@@ -33,17 +33,19 @@ yarn add vue-i18n@9
 In the src directory, create a new folder called locales. This is where you will store all your translation files. Create a new file — *en.json*. You can choose another format (e.g. YAML), but as JSON is more common in this case, it will serve as the template.
 
 ```json
-"common": {
- "next": "Next",
- "cancel": "Cancel"
-},
-"home": {
- "logOut": {
-   "logIn": "Log in",
-   "register": "Register"
+{
+ "common": {
+  "next": "Next",
+  "cancel": "Cancel"
  },
-  "logIn": {
-   "welcome": "Welcome!",
+ "home": {
+  "logOut": {
+    "logIn": "Log in",
+    "register": "Register"
+  },
+   "logIn": {
+    "welcome": "Welcome!",
+  }
  }
 }
 ```
@@ -51,17 +53,19 @@ In the src directory, create a new folder called locales. This is where you will
 The keys must be the same in all translation files. If you want to add another language, you must create a new file and assign appropriate values for the existing keys. For example, for the Polish language, this would be the file *pl.json*.
 
 ```json
-"common": {
- "next": "Dalej",
- "cancel": "Anuluj"
-},
-"home": {
- "logOut": {
-   "logIn": "Zaloguj się",
-   "register": "Załóż konto"
+{
+ "common": {
+  "next": "Dalej",
+  "cancel": "Anuluj"
  },
-  "logIn": {
-   "welcome": "Witaj!",
+ "home": {
+  "logOut": {
+    "logIn": "Zaloguj się",
+    "register": "Załóż konto"
+  },
+   "logIn": {
+    "welcome": "Witaj!",
+  }
  }
 }
 ```
@@ -111,7 +115,7 @@ To use i18n in a component you must import it and then destructure it to access 
 In the HTML part, instead of strings, use the corresponding keys, with the help of the `t` function.
 
 ```xml
-<span>{{t('home.logIn.welcome')}</span>
+<span>{{t('home.logIn.welcome')}}</span>
 ```
 
 ### Language switcher
