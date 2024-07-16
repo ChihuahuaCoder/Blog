@@ -8,6 +8,10 @@ tags: aws, net, aws-s3
 
 ---
 
+Amazon S3, or Amazon Simple Storage Service, is an AWS cloud object storage service. It allows you to scale, secure, and manage your data efficiently. More than that, you can use it even if you host your application elsewhere (Azure, Google Cloud, etc.).
+
+## Installation
+
 First, you have to add libraries to your project. [AWSSDK.S3](https://www.nuget.org/packages/AWSSDK.S3) and [AWSSDK.Extensions.NETCore.Setup](https://www.nuget.org/packages/AWSSDK.Extensions.NETCore.Setup).
 
 ```bash
